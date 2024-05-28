@@ -33,3 +33,6 @@ All notable changes to `Material Dashboard Laravel` frontend preset for Laravel 
   - Add new example pages
   - Add Light/Dark feature
   - New Documentation version
+
+## Version 2.1.0 - 2024-05-27
+- Update to Laravel 11.x
