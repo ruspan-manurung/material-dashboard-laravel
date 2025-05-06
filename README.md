@@ -1,393 +1,865 @@
-# [Material Dashboard 2 Laravel - Free](https://material-dashboard-laravel.creative-tim.com)
+> ![](media/image1.png){width="8.270833333333334in"
+> height="11.697916666666666in"}![](media/image2.png){width="3.1958836395450567in"
+> height="1.2927154418197726in"}Laporan PBL
+>
+> PBL -- IF241
+
+WEBSITE KULINER
+
+KHAS TOBA
+
+> **Disusun Oleh:**
+>
+> 3312411040 - Fhrada Samuel T.
+>
+> 3312411039 - Roberto November
+>
+> 3312411054 - Thaufik Fauzan A.
+>
+> 3312411036 - Chairunnisa Yasfa
+
+**Progran Studi Teknik Informatika**
+
+**Politeknik Negeri Batam**
+
+**2025**
+
+# IDENTITAS PROYEK {#identitas-proyek .unnumbered}
+
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 3%" />
+<col style="width: 72%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Nomor ID</strong></td>
+<td><strong>:</strong></td>
+<td>PBL-IF241</td>
+</tr>
+<tr class="even">
+<td><strong>Pengusul Proyek</strong></td>
+<td><strong>:</strong></td>
+<td>Yeni Rokhayati, S.Si., M.Sc</td>
+</tr>
+<tr class="odd">
+<td><strong>Manajer proyek</strong></td>
+<td><strong>:</strong></td>
+<td>Yeni Rokhayati, S.Si., M.Sc</td>
+</tr>
+<tr class="even">
+<td><strong>Co Manpro</strong></td>
+<td><strong>:</strong></td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><strong>Judul Proyek</strong></td>
+<td><strong>:</strong></td>
+<td>Website Kuliner Khas Toba</td>
+</tr>
+<tr class="even">
+<td><strong>Luaran</strong></td>
+<td><strong>:</strong></td>
+<td>Website informasi dan jualan kuliner,Poster,Manual Book,dan Laporan
+Akhir.</td>
+</tr>
+<tr class="odd">
+<td><strong>Klien/Pelanggan</strong></td>
+<td><strong>:</strong></td>
+<td>Yeni Rokhayati, S.Si., M.Sc</td>
+</tr>
+<tr class="even">
+<td><strong>Pengarah (Dosen &amp; Laboran mata kuliah PBL)</strong></td>
+<td><strong>:</strong></td>
+<td><ol type="1">
+<li><blockquote>
+<p>. Yeni Rokhayati, S.Si., M.Sc</p>
+</blockquote></li>
+<li><blockquote>
+<p>. Agung Riyadi, S.Si., M.Kom</p>
+</blockquote></li>
+<li><blockquote>
+<p>. Nanda Putra Perkasa, S.Tr.Kom</p>
+</blockquote></li>
+<li><blockquote>
+<p>. Alena Uperiati, S.T, M.Cs</p>
+</blockquote></li>
+<li><blockquote>
+<p>. Banu Failasuf, S.Tr</p>
+</blockquote></li>
+<li><blockquote>
+<p>. Agus Fatulloh, S.T., M.T</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><strong>Anggota Tim Mahasiswa</strong></td>
+<td><strong>:</strong></td>
+<td><ol type="1">
+<li><blockquote>
+<p>[3312411040] – [Fhrada Samuel Tambunan]</p>
+</blockquote></li>
+<li><blockquote>
+<p>[3312411039] – [Roberto Novempber]</p>
+</blockquote></li>
+<li><blockquote>
+<p>[3312411054] – [Thaufik Fauzan Anra]</p>
+</blockquote></li>
+<li><blockquote>
+<p>[3312411036] – [Chairunnisa Yasfa Gunawan]</p>
+</blockquote></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
-![version](https://img.shields.io/badge/version-3.0.0-blue.svg) 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
-[![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-dashboard-laravel.svg)](https://github.com/creativetimofficial/material-dashboard-laravel/issues?q=is%3Aopen+is%3Aissue) 
-[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-dashboard-laravel.svg)](https://github.com/creativetimofficial/material-dashboard-laravel/issues?q=is%3Aissue+is%3Aclosed)
+# DAFTAR ISI {#daftar-isi .unnumbered}
 
-*Frontend version*: Material Dashboard v3.0.0. More info at https://www.creative-tim.com/product/material-dashboard
-[ <img src="https://s3.amazonaws.com/creativetim_bucket/products/154/original/material-dashboard-laravel.jpg" width="100%" />](https://material-dashboard-laravel.creative-tim.com)
+[IDENTITAS PROYEK](#_Toc192448562) 1
 
-Speed up your web development with the Bootstrap 5 Admin Dashboard built for Laravel Framework 9.x and up.
+[DAFTAR ISI 2](#daftar-isi)
 
-If you want to get more features, go PRO with [Material Dashboard 2 PRO Laravel](https://www.creative-tim.com/product/material-dashboard-pro-laravel).
+[DAFTAR GAMBAR 3](#daftar-gambar)
 
-## Table of Contents
-* [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Versions](#versions)
-* [Demo](#demo)
-* [Documentation](#documentation)
-* [Login](#login)
-* [Register](#register)
-* [Forgot Password](#forgot-password)
-* [Reset Password](#reset-password)
-* [User Profile](#user-profile)
-* [Dashboard](#dashboard)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Reporting Issues](#reporting-issues)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-* [Social Media](#social-media)
-* [Credits](#credits)
+[DAFTAR TABEL 4](#daftar-tabel)
 
-## Prerequisites
+[RIWAYAT DOKUMEN 5](#riwayat-dokumen)
 
-If you don't already have an Apache local environment with PHP and MySQL, use one of the following links:
+[SPESIFIKASI SISTEM 6](#spesifikasi-sistem)
 
- - Windows: https://updivision.com/blog/post/beginner-s-guide-to-setting-up-your-local-development-environment-on-windows
- - Linux & Mac: https://updivision.com/blog/post/guide-what-is-lamp-and-how-to-install-it-on-ubuntu-and-macos
+[**A. Deskripsi Umum 6**](#deskripsi-umum)
 
-Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md  
-And Laravel: https://laravel.com/docs/10.x
+[**B. Kebutuhan Fungsional dan Non-Fungsional
+[7](#kebutuhan-fungsional-dan-non-fungsional)**](#kebutuhan-fungsional-dan-non-fungsional)
 
+[**C. Pemodelan Sistem [8](#pemodelan-sistem)**](#pemodelan-sistem)
 
-## Installation
+[**D. Desain Basisdata 8**](#desain-basisdata)
 
-After initializing a fresh instance of Laravel (and making all the necessary configurations), install the preset using one of the provided methods:
+[**E. Desain Antarmuka 8**](#desain-antarmuka)
 
-### Via composer
+[HASIL IMPLEMENTASI 16](#hasil-implementasi)
 
-1. `Cd` to your Laravel app  
-2. Type in your terminal: `composer require laravel/ui`
-3. Install this preset via `composer require laravel-frontend-presets/material-dashboard`. No need to register the service provider. Laravel 9.x & up can auto detect the package.
-4. Run `php artisan ui material` command to install the Material preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
-(NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
-5. In your terminal run `composer dump-autoload`
-6. Run `php artisan migrate:fresh --seed` to create basic users table
+[**A. Implementasi Antarmuka 16**](#implementasi-antarmuka)
 
-### By using the archive
+[**B. Implementasi Basis Data 16**](#implementasi-basis-data)
 
-1. In your application's root create a **presets** folder
-2. Download the archive of the repo and unzip it
-3. Copy and paste the downloaded folder in presets (created in step 2) and rename it to **material**
-4. Open `composer.json` file 
-5. Add `"LaravelFrontendPresets\\MaterialPreset\\": "presets/material/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
-6. Add `LaravelFrontendPresets\MaterialPreset\MaterialPresetServiceProvider::class` to `config/app.php` file
-7. Type in your terminal: `composer require laravel/ui`
-8. In your terminal run `composer dump-autoload`
-9. Run `php artisan ui material` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
-(NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
-10. Add in your **.env** file the info for your database
-11. Run `php artisan migrate:fresh --seed` to create basic users table
+[**C. Pengujian Aplikasi dan Deployment
+16**](#pengujian-aplikasi-dan-deployment)
 
+[PENUTUP [19](#penutup)](#penutup)
 
-## Usage
-Register a user or login with default user **admin@material.com** and password **secret** from your database and start testing (make sure to run the migrations and seeders for these credentials to be available).
+[**A. Kesimpulan [19](#kesimpulan)**](#kesimpulan)
 
-Besides the dashboard, the auth pages, the billing and table pages, there is also has an edit profile page. All the necessary files are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided or by registering your own user. 
+[**B. Lesson Learned [19](#lesson-learned)**](#lesson-learned)
 
+[DAFTAR PUSTAKA [20](#daftar-pustaka)](#daftar-pustaka)
 
-## Versions
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://demos.creative-tim.com/material-dashboard/examples/dashboard.html)
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/laravel_logo.png?raw=true" width="60" height="60" />](https://material-dashboard-laravel.creative-tim.com/)
+[LAMPIRAN [21](#lampiran)](#lampiran)
 
-| HTML | Laravel |
-| --- | --- |
-| [![HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/thumb/material-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/material-dashboard) | [![Laravel](https://s3.amazonaws.com/creativetim_bucket/products/154/thumb/material-dashboard-laravel.jpg?raw=true)](https://www.creative-tim.com/product/material-dashboard-laravel)  |
-
-| Vue | React |
-| --- | --- |
-| [![Vue](https://s3.amazonaws.com/creativetim_bucket/products/596/thumb/vue-material-dashboard-2.jpg?raw=true)](https://www.creative-tim.com/product/vue-material-dashboard-2) | [![React](https://s3.amazonaws.com/creativetim_bucket/products/71/thumb/material-dashboard-react.jpg?raw=true)](https://www.creative-tim.com/product/material-dashboard-react)  | 
-
-
-## Demo
-| Register | Login | Dashboard |
-| --- | --- | ---  |
-| [<img src="src/material-stubs/screens/register.png" width="322" />](https://material-dashboard-laravel.creative-tim.com/sign-up) | [<img src="src/material-stubs/screens/login.png" width="322" />](https://material-dashboard-laravel.creative-tim.com/sign-in)  | [<img src="src/material-stubs/screens/dashboard.png" width="322" />](https://material-dashboard-laravel.creative-tim.com/dashboard)
-
-| Forgot Password Page | Reset Password Page | Profile Page  |
-| --- | --- | ---  |
-| [<img src="src/material-stubs/screens/forgot-password.png" width="322" />](https://material-dashboard-laravel.creative-tim.com/verify)  | [<img src="src/material-stubs/screens/reset-password.png" width="322" />](https://material-dashboard-laravel.creative-tim.com/sign-in) | [<img src="src/material-stubs/screens/profile.png" width="322" />](https://material-dashboard-laravel.creative-tim.com/user-profile)
-[View More](https://material-dashboard-laravel.creative-tim.com/dashboard)
-
-## Documentation
-The documentation for the Material Dashboard Laravel is hosted at our [website](https://material-dashboard-laravel.creative-tim.com/documentation/getting-started/installation.html).
-
-### Login
-If you are not logged in you can only access this page or the Sign Up page. The default url takes you to the login page where you use the default credentials **admin@material.com** with the password **secret**. Logging in is possible only with already existing credentials. For this to work you should have run the migrations. 
-
-The `App/Http/Controllers/SessionsController.php` handles the logging in of an existing user.
-
-```
-       public function store()
-    {
-        $attributes = request()->validate([
-            'email' => 'required|email',
-            'password' => 'required'
-        ]);
-
-        if (! auth()->attempt($attributes)) {
-            throw ValidationException::withMessages([
-                'email' => 'Your provided credentials could not be verified.'
-            ]);
-        }
-
-        session()->regenerate();
-
-        return redirect('/dashboard');
-
-    }
-```
-
-### Register
-You can register as a user by filling in the name, email and password for your account. You can do this by accessing the sign up page from the "**Sign Up**" button in the top navbar or by clicking the "**Sign Up**" button from the bottom of the log in form.. Another simple way is adding **/sign-up** in the url.
-
-The `App/Http/Controllers/RegisterController.php` handles the registration of a new user.
-
-```
-   public function store(){
-
-        $attributes = request()->validate([
-            'name' => 'required|max:255|unique:users,name',
-            'email' => 'required|email|max:255|unique:users,email',
-            'password' => 'required|min:5|max:255',
-        ]);
-
-        $user = User::create($attributes);
-        auth()->login($user);
-        
-        return redirect('/dashboard');
-    } 
-```
-
-### Forgot Password
-If a user forgets the account's password it is possible to reset the password. For this the user should click on the "**here**" under the login form.
-
-The `App/Http/Controllers/SessionsController.php ` takes care of sending an email to the user where he can reset the password afterwards.
-
-```
-       public function show(){
-
-        request()->validate([
-            'email' => 'required|email',
-        ]);
-
-        $status = Password::sendResetLink(
-            request()->only('email')
-        );
-    
-        return $status === Password::RESET_LINK_SENT
-                    ? back()->with(['status' => __($status)])
-                    : back()->withErrors(['email' => __($status)]);
-    }
-```
-
-### Reset Password
-The user who forgot the password gets an email on the account's email address. The user can access the reset password page by clicking the button found in the email. The link for resetting the password is available for 12 hours. The user must add the email, the password and confirm the password for his password to be updated.
-
-The `App/Http/Controllers/SessionsController.php` helps the user reset the password.
-
-```
-     public function update(){
-        
-        request()->validate([
-            'token' => 'required',
-            'email' => 'required|email',
-            'password' => 'required|min:8|confirmed',
-        ]); 
-          
-        $status = Password::reset(
-            request()->only('email', 'password', 'password_confirmation', 'token'),
-            function ($user, $password) {
-                $user->forceFill([
-                    'password' => ($password)
-                ])->setRememberToken(Str::random(60));
-    
-                $user->save();
-    
-                event(new PasswordReset($user));
-            }
-        );
-    
-        return $status === Password::PASSWORD_RESET
-                    ? redirect()->route('login')->with('status', __($status))
-                    : back()->withErrors(['email' => [__($status)]]);
-    }
-```
-
-### User Profile
-The profile can be accessed by a logged in user by clicking "**User Profile**" from the sidebar or adding **/user-profile** in the url. The user can add information like phone number, location, description or change the name and email.
-
-The `App/Http/Controllers/ProfileController.php ` handles the user's profile information.
-
-```
-    public function update()
-    {
-            
-        $user = request()->user();
-        $attributes = request()->validate([
-            'email' => 'required|email|unique:users,email,'.$user->id,
-            'name' => 'required',
-            'phone' => 'required|max:10',
-            'about' => 'required:max:150',
-            'location' => 'required'
-        ]);
-        auth()->user()->update($attributes);
-        return back()->withStatus('Profile successfully updated.');
-    
-}
-```
-
-### Dashboard
-You can access the dashboard either by using the "**Dashboard**" link in the left sidebar or by adding **/dashboard** in the url after logging in. 
-
-## File Structure
-```
-+---app
-|   +---Console
-|   |       Kernel.php
-|   +---Exceptions
-|   |       Handler.php
-|   +---Http
-|   |   +---Controllers
-|   |   |       Controller.php
-|   |   |       DashboardController.php
-|   |   |       ProfileController.php
-|   |   |       SessionsController.php
-|   |   |       RegisterController.php
-|   |   |       
-|   |   +---Middleware
-|   |   |       Authenticate.php
-|   |   |       EncryptCookies.php
-|   |   |       PreventRequestsDuringMaintenance.php
-|   |   |       RedirectIfAuthenticated.php
-|   |   |       TrimStrings.php
-|   |   |       TrustHosts.php
-|   |   |       TrustProxies.php
-|   |   |       VerifyCsrfToken.php
-|   |   |
-|   |    \---Kernel.php   
-|   |   
-|   +---Models
-|   |        User.php
-|   |     
-|   \---Proviers
-|          AppServiceProvider.php
-|          AuthServiceProvider.php
-|          BroadcastServiceProvider.php
-|          EventServiceProvider.php
-|          RouteServiceProvider.php
-|   
-+---database
-|   \---seeders
-|           DatabaseSeeder.php
-|
-\---resources
-    |
-    |
-    \---views
-        |   welcome.blade.php
-        |   
-        +---sessions
-        |   |   create.blade.php
-        |   |   
-        |   \---passwords
-        |           reset.blade.php
-        |           verify.blade.php
-        |           
-        +---components
-        |   |   layout.blade.php
-        |   |   plugins.blade.php
-        |   |   
-        |   +---footers
-        |   |       auth.blade.php
-        |   |       guest.blade.php
-        |   |       
-        |   \---navbars
-        |      |   sidebar.blade.php
-        |      |   
-        |      \---navs
-        |             auth.blade.php
-        |             guest.blade.php
-        |              
-        |           
-        +---pages
-        |   |   billing.blade.php
-        |   |   notifications.blade.php
-        |   |   profile.blade.php
-        |   |   rtl.blade.php
-        |   |   static-sign-in.blade.php
-        |   |   static-sign-up.blade.php
-        |   |   tables.blade.php
-        |   |   virtual-reality.blade.php
-        |   |  
-        |   \---laravel-examples
-        |           user-management.blade.php
-        |           user-profile.blade.php
-        |       
-        +---dashboard
-        |       index.blade.php
-        | 
-        +---errors
-        |       401.blade.php
-        |       403.blade.php
-        |       404.blade.php
-        |       405.blade.php
-        |       419.blade.php
-        |       429.blade.php
-        |       500.blade.php
-        |       503.blade.php
-        |
-        \---register
-                create.blade.php
-```
-
-## Browser Support
-At present, we officially aim to support the last two versions of the following browsers:
-
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
-
-
-## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Material Dashboard. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Material Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/material-dashboard-laravel).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-
-## Licensing
-- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-md2l)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-md2l)
-
-## Useful Links
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
-- [Blog Creative Tim](http://blog.creative-tim.com/)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
-- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=md2l-readme) from Creative Tim
-- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=md2l-readme) from Creative Tim
-- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=md2l-readme) from Creative Tim
-- [More products](https://www.creative-tim.com/bootstrap-themes?ref=md2l-readme) from Creative Tim
-- Check our Bundles [here](https://www.creative-tim.com/bundles??ref=md2l-readme)
-
-### Social Media
-
-### Creative Tim
-Twitter: <https://twitter.com/CreativeTim?ref=md2l-readme>
-
-Facebook: <https://www.facebook.com/CreativeTim?ref=md2l-readme>
-
-Dribbble: <https://dribbble.com/creativetim?ref=md2l-readme>
-
-Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=md2l-readme>
-
-### Updivision:
-
-Twitter: <https://twitter.com/updivision?ref=md2l-readme>
-
-Facebook: <https://www.facebook.com/updivision?ref=md2l-readme>
-
-Linkedin: <https://www.linkedin.com/company/updivision?ref=md2l-readme>
-
-Updivision Blog: <https://updivision.com/blog/?ref=md2l-readme>
-
-## Credits
-
-- [Creative Tim](https://creative-tim.com/?ref=md2l-readme)
-- [UPDIVISION](https://updivision.com)
+# DAFTAR GAMBAR {#daftar-gambar .unnumbered}
 
+[Gambar 1. Use Case 8](#_Toc192444420)
 
+[Gambar 2. ER Diagram 9](#_Toc192444420)
+
+[Gambar 3. Landing Page 10](#_Toc192444420)
+
+[Gambar 4. Menu Kuliner 10](#_Toc192444420)
+
+[Gambar 5. Riwayat Pesanan 11](#_Toc192444420)
+
+[Gambar 6. Menu Search 11](#_Toc192444420)
+
+[Gambar 7. Detail Product 12](#_Toc192444420)
+
+[Gambar 8. Login 12](#_Toc192444420)
+
+[Gambar 9. Register 13](#_Toc192444420)
+
+[Gambar 10. Bukti Pembayaran 13](#_Toc192444420)
+
+[Gambar 11. Contact Us 14](#_Toc192444420)
+
+[Gambar 12. About Us 14](#_Toc192444420)
+
+[Gambar 13. Halaman Utama 16](#_Toc192444420)
+
+[Gambar 14. Halaman Menu Populer 16](#_Toc192444420)
+
+[Gambar 15. Halaman Riwayat Pesanan 15](#_Toc192444420)
+
+[Gambar 16. Halaman Menu Utama 15](#_Toc192444420)
+
+[Gambar 17. About Us 15](#_Toc192444420)
+
+**  
+**
+
+# DAFTAR TABEL {#daftar-tabel .unnumbered}
+
+[Tabel 1. Riwayat Pengerjaan (sesuai logbook) 5](#_Toc192444420)
+
+[Tabel 2. Kontribusi Anggota 5](#_Toc192444420)
+
+[Tabel 3. Kebutuhan fungsional 7](#_Toc192444420)
+
+[Tabel 4. Kebutuhan Non-fungsional 7](#_Toc192444420)
+
+# RIWAYAT DOKUMEN {#riwayat-dokumen .unnumbered}
+
+[]{#_Toc192444420 .anchor}
+
+Bagian ini meliputi riwayat pengerjaan proyek dari minggu ke minggu
+serta kontribusi dari setiap anggota tim.
+
+Tabel 1. Riwayat Pengerjaan (sesuai logbook)
+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 19%" />
+<col style="width: 35%" />
+<col style="width: 32%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Minggu ke-</td>
+<td>Tahapan</td>
+<td>Luaran yang dihasilkan</td>
+<td>Anggota Tim yang Mengerjakan</td>
+</tr>
+<tr class="even">
+<td><strong>1</strong></td>
+<td>Perencanaan</td>
+<td>Diagram Use Case, ER Diagram, dan Class</td>
+<td>Roberto Novempber</td>
+</tr>
+<tr class="odd">
+<td><strong>2</strong></td>
+<td>Analisis</td>
+<td>Functional &amp; non-functional requirements , Laporan PBL, Power
+Point dan RPP</td>
+<td><p>Chairunnisa Yasfa G.</p>
+<p>Thaufik Fauzan Anra</p></td>
+</tr>
+<tr class="even">
+<td><strong>3</strong></td>
+<td>Desain</td>
+<td>Wireframe</td>
+<td>Chairunnisa Yasfa G.</td>
+</tr>
+<tr class="odd">
+<td><strong>4</strong></td>
+<td>Implementasi</td>
+<td>Front-End</td>
+<td>Fhrada Samuel Tambunan</td>
+</tr>
+<tr class="even">
+<td><strong>5</strong></td>
+<td>Testing</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+Tabel 2. Kontribusi Anggota
+
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 69%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Nama Anggota</td>
+<td>Kontribusi</td>
+</tr>
+<tr class="even">
+<td>Fhrada Samuel Tambunan</td>
+<td>Membuat Front End</td>
+</tr>
+<tr class="odd">
+<td>Roberto Novempber</td>
+<td>Membuat ER Diagram dan Use Case</td>
+</tr>
+<tr class="even">
+<td>Thaufik Fauzan Anra</td>
+<td>Merancang Desain Umum dan desain antar muka<br />
+Membuat Wireframe</td>
+</tr>
+<tr class="odd">
+<td>Chairunnisa Yasfa Gunawan</td>
+<td><p>Membuat dan merevisi Laporan dan RPP</p>
+<p>Membuat Wireframe</p></td>
+</tr>
+</tbody>
+</table>
+
+# SPESIFIKASI SISTEM {#spesifikasi-sistem .unnumbered}
+
+## **Deskripsi Umum**
+
+> Website kuliner khas Toba adalah platform yang menyajikan informasi
+> lengkap mengenai ragam kuliner tradisional dari Toba, Danau Toba yang
+> terkenal dengan kekayaan cinta rasa dan keanekaragamaan kulinernya. Di
+> Website ini pengguna dapat melihat informasi tentang kuliner Toba
+> dengan berbagai rekomendasi kuliner khas Toba.
+>
+> Selain itu, Website ini bukan hanya bisa melihat informasi tentang
+> kuliner yang ada di Toba tetapi pengguna bisa membeli kuliner yang di
+> website dan bisa mengirim komentar atau ulasan pada kuliner yang ini
+> ia komentari. Website ini menjadi destinasi utama bagi pencinta
+> kuliner yang ingin menikmati berbagai macam kuliner yang ada di Toba
+> dan bisa juga mempelajari resep kuliner tersebut dan bisa juga membeli
+> kuliner yang di sukai pengguna.
+>
+> Website ini akan memuat:
+
+- Daftar makanan khas dengan deskripsi, bahan, dan Harga nya.
+
+- Resep dan cara memasak.
+
+- Rekomendasi makanan paling populer dan memeliki rating tertinggi.
+
+- Menyediakan daftar harga makanan khas Toba.
+
+> **Pengguna Website :**
+
+1.  Pelanggan
+
+> Orang yang ingin memesan makanan khas Toba (warga lokal, turis,
+> pekerja).
+
+2.  Seller atau UMKM kuliner Toba
+
+> Menjual makanan mereka melalui platform.
+
+3.  Admin platform
+
+> Mengelola data restoran, memproses pembayaran, menjaga kelancaran
+> sistem.
+
+**Alur Kerja Website :**
+
+1.  Pelanggan
+
+- Membuka website.
+
+- Melihat daftar restoran atau mencari makanan tertentu.
+
+- Memilih restoran dan menu yang diinginkan.
+
+- Menambahkan pesanan ke keranjang.
+
+- Melakukan checkout dan pembayaran online (transfer) atau Offline
+  (COD).
+
+- Melacak status pesanan (\"Pesanan Selesai\").
+
+  1.  Seller
+
+<!-- -->
+
+- Mendaftarkan usaha mereka (daftar menu, harga, foto makanan).
+
+- Menerima notifikasi pesanan baru.
+
+- Menyiapkan makanan sesuai pesanan.
+
+  1.  Admin
+
+<!-- -->
+
+- Mengelola pendaftaran restoran.
+
+- Memastikan pembayaran berjalan lancar.
+
+- Menyelesaikan masalah (Rate terendah).
+
+## **Kebutuhan Fungsional dan Non-Fungsional**  {#kebutuhan-fungsional-dan-non-fungsional}
+
+> Kebutuhan fungsional :
+>
+> *Tabel 3. Kebutuhan Fungsional*
+
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 78%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><blockquote>
+<p><strong>Kode</strong></p>
+</blockquote></th>
+<th><blockquote>
+<p><strong>Kebutuhan Fungsional</strong></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><blockquote>
+<p>F001</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer, seller dapat melakukan register</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>F002</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer , Seller, dan admin dapat melakukan <em>login</em> dan
+<em>logout</em></p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>F003</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer, dan Seller dapat mengubah data diri (Profil)</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>F004</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer Dapat menentukan Jumlah barang yang akan dibeli</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>F005</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer Dapat Menambahkan Barang ke Keranjang</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>F006</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer Dapat memesan atau checkout barang</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>F007</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer dan sistem Dapat melakukan pembayaran</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>F008</p>
+</blockquote></td>
+<td><blockquote>
+<p>Seller Dapat menambahkan, mengupdate, menghapus barang dari katalog
+Barang</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>F009</p>
+</blockquote></td>
+<td><blockquote>
+<p>Seller Dapat menampilkan rekomendasi kuliner</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>F010</p>
+</blockquote></td>
+<td><blockquote>
+<p>Buyer dan Seller dapat mencari Produk sesuai kategori, Harga</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>F011</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem Menyediakan Fitur Untuk memperbarui Informasi Barang</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>F012</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem harus mendukung opsi pembayaran yang beragam</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>F013</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem dapat mengelola dan menerapkan sistem rekomendasi kuliner</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>F014</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem menyediakan Interaksi layanan antara Buyer dan Seller</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>F015</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem Dapat memastikan keamanan Transaksi dan data pengguna</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
+
+> Kebutuhan non-fungsional:
+>
+> *Tabel 4. Kebutuhan non-fungsional*
+
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><blockquote>
+<p><strong>Kode</strong></p>
+</blockquote></th>
+<th><strong>Kebutuhan Non Fungsional</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><blockquote>
+<p>NF001</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem harus digunakan dengan fleksibel, dan mudah</p>
+<p>Dinavigasi</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>NF002</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem harus memiliki desain menarik dan nyaman</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>NF003</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem Hanya Dapat diakses secara Online atau menggunakan
+internet</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>NF005</p>
+</blockquote></td>
+<td><blockquote>
+<p>User Memiliki Username Dan Password Tersendiri</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>NF006</p>
+</blockquote></td>
+<td><blockquote>
+<p>Membutuhkan Register Untuk Dapat Melakukan Pendaftaran</p>
+<p>User</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>NF007</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem Web Kuliner Dapat Diakses Kapanpun</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>NF008</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sistem Web Kuliner Menggunakan Bahasa Indonesia</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
+
+## **Pemodelan Sistem**
+
+> ![](media/image5.png){width="6.893055555555556in"
+> height="4.915277777777778in"}
+>
+> *Gambar 1. Use Case.*
+>
+> **Use Case Scenario :**
+
+1.  Use Case Seller (Penjual/Admin)
+
+- Login ke sistem
+
+- Mengelola data kuliner
+
+- Tambah kuliner baru
+
+- Edit informasi kuliner
+
+- Hapus kuliner
+
+- Melihat detail produk dan ulasan dari pengguna
+
+- Melihat riwayat pembelian pengguna
+
+- Mengelola akun admin (jika multi-admin)
+
+- Melihat statistik rating dan penjualan
+
+- Mengelola pengguna (opsional)
+
+- Mengatur konten halaman beranda
+
+2.  Use Case Buyer (Pengguna/Pembeli)
+
+- Registrasi akun
+
+- Login ke sistem
+
+- Melihat daftar kuliner
+
+- Mencari produk kuliner (fitur search)
+
+- Melihat detail produk
+
+- Memberi rating dan ulasan setelah membeli
+
+- Menambahkan produk ke keranjang
+
+- Melihat dan mengelola keranjang
+
+- Mengubah jumlah
+
+- Menghapus produk
+
+- Melakukan pembelian (checkout)
+
+- Melihat riwayat pesanan di profil
+
+- Mengedit profil pengguna
+
+- Logout dari sistem
+
+## **Desain Basisdata**
+
+> ![](media/image6.png){width="6.270138888888889in"
+> height="7.415277777777778in"}.
+>
+> *Gambar 2. ER Diagram.*
+
+## **Desain Antarmuka**
+
+> ![](media/image7.png){width="5.788915135608049in"
+> height="3.2562642169728786in"}
+>
+> *Gambar 3. Landing Page.*
+>
+> Pengguna masuk ke halaman utama TobaTaste lalu menjelajahi website
+> menggunakan menu navigasi (Home, Menu, About, Contact) dan bisa juga
+> mencari makanan via search bar. Pengguna dapat menemukan makanan
+> populer berdasarkan harga dan rating tertinggi.
+>
+> ![](media/image8.png){width="5.706245625546806in"
+> height="3.209763779527559in"}
+>
+> *Gambar 4. Menu Kuliner*
+
+Pengguna membuka halaman utama TobaTaste dan mengklik tombol atau menu
+"Menu" → diarahkan ke halaman Menu Kuliner. Pengguna tertarik pada satu
+produk dan memiliki 2 pilihan seperti Klik **View** **Detail** untuk
+informasi lengkap (foto, bahan, asal, harga) dan Klik **Beli** untuk
+langsung melakukan pembelian cepat.
+
+> ![](media/image9.png){width="6.9in" height="2.2in"}
+>
+> *Gambar 5. Riwayat Pesanan*
+
+Pengguna bisa melihat kembali daftar riwayat pesanan yang telah di
+masukkan ke dalam keranjang sebelumnya. Pengguna dapat mengurutkan atau
+memfilter pesanan berdasarkan rating menggunakan tombol "**Rating**" dan
+Klik tombol **"Hapus Pencarian"** untuk menampilkan semua produk
+kembali.
+
+> ![](media/image10.jpeg){width="6.9in" height="3.88125in"}
+>
+> *Gambar 6. Menu Search / Pencarian.*
+>
+> Pengguna mengunjungi halaman utama TobaTaste yang berisi daftar
+> kuliner. Lalu pengguna mengetik nama kuliner, misalnya \"Bika Ambon\",
+> di kolom pencarian. Sistem menampilkan halaman **Search Result**
+> seperti pada gambar. Jika pengguna tertarik, mereka dapat klik "Read
+> More..." untuk membuka halaman detail produk. Pengguna dapat mengklik
+> tombol "Back To Home" jika ingin melihat semua produk atau memulai
+> pencarian baru.
+>
+> ![](media/image11.png){width="5.920301837270341in"
+> height="3.4643022747156604in"}
+>
+> *Gambar 7. Detail Product*
+
+Pengguna sampai ke halaman ini dari hasil pencarian, daftar kuliner,
+atau halaman utama. Pengguna dapat membaca asal-usul kuliner, termasuk
+budaya dan ciri khas makanan (misalnya: Bika Ambon dari Medan). Pengguna
+menggulir ke bawah untuk memberi rating (bintang 1--5) dan menulis
+komentar di kolom yang tersedia, lalu klik "Kirim Komentar." Jika ingin
+mencari makanan lain, pengguna bisa kembali ke menu utama, search bar,
+atau ikon keranjang/profil di bagian atas.
+
+![](media/image12.png){width="4.125575240594926in"
+height="2.4690944881889765in"}
+
+*Gambar 8. Login.*
+
+Pengguna membuka halaman login dari tombol "Masuk" di menu utama atau
+saat ingin mengakses fitur yang memerlukan autentikasi. Pengguna
+mengetik alamat email pada kolom "Email" dan mengetik kata sandi di
+kolom "Password". Jika data cocok, pengguna langsung diarahkan ke
+halaman utama/dashboard. ika pengguna belum memiliki akun, mereka bisa
+klik tab "Register" di bagian atas untuk pindah ke halaman pendaftaran.
+
+![](media/image13.png){width="4.615227471566055in"
+height="3.0004188538932635in"}
+
+*Gambar 9. Register.*
+
+Pengguna membuka halaman pendaftaran melalui tombol "Register" di menu
+utama atau tab Register di form login/register. Pengguna mengetik nama
+lengkap pada kolom "Full Name", memasukkan alamat email yang valid di
+kolom "Email" dan Pengguna memilih dan mengetik kata sandi yang aman di
+kolom "Password". Setelah semua kolom terisi, pengguna menekan tombol
+"Register" di bagian bawah form. Jika pengguna ternyata sudah punya
+akun, mereka bisa klik tab "Login" untuk masuk ke form login.
+
+![](media/image14.png){width="2.825in" height="3.1807403762029747in"}
+
+***  
+***
+
+> *Gambar 10. Bukti Pembayaran.*
+>
+> Pengguna akan mendapatkan bukti pembayaran jika pengguna tersebut
+> sudah memesan makanan pada website tersebut.
+>
+> ![](media/image15.png){width="6.893055555555556in"
+> height="3.877083333333333in"}
+>
+> *Gambar 11. Contact us.*
+>
+> Pengguna dapat melihat Contact Us dengan Klik **Contact** di bar atas.
+> Jika pengguna tersebut menemui kendala dalam website TobaTaste, maka
+> pengguna dapat mengirimkan pesan dengan mengisi Nama Lengkap, Email
+> dan Pesan berisi pemesanan katering, tanya stok atau komplain.
+>
+> ![](media/image16.png){width="6.893055555555556in"
+> height="4.033333333333333in"}
+>
+> *Gambar 12. About Us.*
+>
+> Pengguna dapat mencari informasi tentang Kuliner Khas Toba dan
+> pengguna tertarik dengan visi Toba Taste untuk melestarikan kuliner
+> khas Toba seperti Bika Ambon dan Soto Medan. Pengguna memutuskan untuk
+> mengeksplor lebih lanjut menu yang ditawarkan dan mungkin mencoba
+> memesannya.
+
+# HASIL IMPLEMENTASI {#hasil-implementasi .unnumbered}
+
+## **Implementasi Antarmuka**
+
+![](media/image17.jpeg){width="6.270138888888889in"
+height="2.9451388888888888in"}
+
+*Gambar 13. Halaman Utama.*
+
+![](media/image18.jpeg){width="6.270138888888889in"
+height="2.9680555555555554in"}
+
+*Gambar 14. Halaman Menu Populer.*
+
+- Pelanggan dapat melihat beberapa menu populer di Halaman Home.
+
+![](media/image19.jpeg){width="6.270138888888889in" height="2.9625in"}
+
+*Gambar 15. Halaman Riwayat Pesanan.*
+
+- Pelanggan dapat melihat riwayat pesanan dengan menekan tombol
+  keranjang di Bar kanan atas.
+
+- Pelanggan dapat menghapus pesanan sesuai yang diinginkan.
+
+![](media/image20.jpeg){width="6.270138888888889in"
+height="2.9506944444444443in"}
+
+*Gambar 16. Halaman Menu Utama*
+
+- Pelanggan dapat melihat melihat beberapa menu lain nya di Halaman
+  Menu.
+
+## **Implementasi Basis Data**
+
+> Jelaskan implementasi basis data, DBMS yang digunakan, tabel yang
+> dibuat, data yang diisikan, contoh query, sertakan screenshot dengan
+> penjelasan.
+
+## **Pengujian Aplikasi dan Deployment**
+
+> Jabarkan secara detail proses pengujian aplikasi yang dibuat. Jenis
+> pengujian yang wajib dilakukan ditetapkan pada mata kuliah Dasar
+> Rekayasa Perangkat Lunak**.**
+
+# PENUTUP {#penutup .unnumbered}
+
+## **Kesimpulan**
+
+Tuliskan kesimpulan dari proses pengerjaan PBL, meliputi:
+
+- Apakah proyek berhasil mencapai tujuan yang ditetapkan?
+
+- Fitur yang berhasil dikembangkan.
+
+- Evaluasi terhadap hasil proyek (misalnya, apakah sudah sesuai dengan
+  kebutuhan pengguna atau masih perlu penyempurnaan).
+
+## **Lesson Learned**
+
+Pembelajaran yang didapat dari keseluruhan proses pelaksanaan PBL selama
+satu semester untuk semua anggota kelompok, apa yang kurang dan apa yang
+perlu diperbaiki kedepannya.
+
+# DAFTAR PUSTAKA {#daftar-pustaka .unnumbered}
+
+Tuliskan daftar referensi yang digunakan dalam mengerjakan PBL, dari
+jurnal, buku maupun sumber lainnya dengan format sitasi IEEE.
+
+# LAMPIRAN {#lampiran .unnumbered}
+
+Sertakan dokumentasi pengerjaan PBL, diskusi kelompok, atau diskusi
+dengan manpro/klien.
